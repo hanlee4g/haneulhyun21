@@ -1,3 +1,5 @@
+// Component for Search Bar w Autofill
+
 import React from 'react';
 import { Container, TextField } from "@mui/material";
 import { useState } from "react";
