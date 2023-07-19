@@ -1,0 +1,19 @@
+{
+  "name": "haneulhyun21",
+  "version": "1.0.0",
+  "description": "Liz's Birthday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanlee4g/haneulhyun21.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanlee4g/haneulhyun21/issues"
+  },
+  "homepage": "https://github.com/hanlee4g/haneulhyun21#readme"
+}
