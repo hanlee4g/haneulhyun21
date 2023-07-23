@@ -14,7 +14,7 @@ function SearchBar() {
     };
 
     return (
-        <Container maxWidth="md" sx={{ mt: 5 }}>
+        <Container maxWidth="md" sx={{ mt: 5, mb: 5}}>
             <Autocomplete
                 id="search"
                 freeSolo
