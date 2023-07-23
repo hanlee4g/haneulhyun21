@@ -1,0 +1,91 @@
+.body-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff; /* or any color you want for the page background */
+  }
+
+.buttons {
+display: flex;
+justify-content: space-between;
+margin: 6rem auto auto;
+width: 35%;
+}
+
+.buttons button {
+background-color: #2faa67;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 10px 20px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+font-size: 16px;
+font-weight: 600;
+}
+
+.buttons button:hover {
+background-color: #47fb98;
+}
+
+.buttons button.selected {
+background-color: #47fb98;
+}
+  
+.login-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #f0f0f0;
+border-radius: 20px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+padding: 20px;
+width: 300px;
+margin: auto auto;
+}
+
+.login-box p {
+    margin-bottom: 0rem; /* Reduce space below the text */
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+  }
+
+.login-box .buttons {
+    display: flex;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align form contents to the center */
+    width: 100%;
+  }
+  
+.login-box label {
+    margin-bottom: 10px;
+    text-align: center; /* Center the password text */
+  }
+
+.input-submit {
+background-color: #2faa67; /* Add button color */
+color: white; /* Add button text color */
+border: none; /* Remove border */
+border-radius: 4px; /* Add button border radius */
+padding: 10px 20px; /* Add button padding */
+cursor: pointer; /* Add button cursor pointer */
+transition: background-color 0.3s ease; /* Add button hover transition */
+font-size: 16px; /* Add button font size */
+font-weight: 600; /* Add button font weight */
+margin: 1rem auto; /* Center the button */
+display: block; /* Make the button a block element */
+}
+
+.input-submit:hover {
+background-color: #47fb98; /* Add button hover color */
+}
