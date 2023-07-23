@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/hanlee4g/haneulhyun21/issues"
   },
-  "homepage": "https://github.com/hanlee4g/haneulhyun21#readme"
+  "homepage": "https://github.com/hanlee4g/haneulhyun21#readme",
+  "dependencies": {
+    "@mui/material": "^5.14.1",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.11"
+  }
 }

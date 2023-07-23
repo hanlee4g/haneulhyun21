@@ -11,9 +11,14 @@ const Post = ({ item }) => {
                 <h3 className="poster-name">{item.name}</h3>
             </div>
             {item.type === 'text' && <p className="post-content">{item.content}</p>}
-            {item.type === 'img' && <img src={item.content} alt="media-content" className="post-content"/>}
+            {item.type === 'img' && 
+                <div className="post-content">
+                    <img src={item.content} alt="media-content" className="post-content"/>
+                    <p>{item.caption}</p>
+                </div>
+            }
             {item.type === 'video' && 
-                <div>
+                <div className="post-content">
                     <ReactPlayer url={item.content} controls={true} width="100%"/>
                 </div>
             }
