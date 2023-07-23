@@ -38,6 +38,24 @@
 }
 
 .posts-container {
-  width: 45%;
+  width: 40%;
   margin: 0 auto;
+}
+
+.confetti-gif {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  animation: fadeout 1s forwards;
+  animation-delay: 3s; /* delay the start of the animation by 3 seconds */
+  opacity: 1; /* start fully visible */
+}
+
+@keyframes fadeout {
+  to {
+    opacity: 0; /* end fully transparent */
+  }
 }
