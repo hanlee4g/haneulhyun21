@@ -63,8 +63,8 @@
 .filter-buttons {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto;
-  width: 30%;
+  margin: 6rem auto auto;
+  width: 35%;
 }
 
 .filter-buttons button {

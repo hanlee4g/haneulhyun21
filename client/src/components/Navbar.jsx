@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 function NavBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: '#62FAA7' }}>
+      <AppBar position="fixed" sx={{ backgroundColor: '#62FAA7' }}>
         <Toolbar>
           <img src="/assets/party_popper.png" alt="Left Popper" style={{ margin: '0 auto', width: '40px', height: '40px' }} />
           <Typography variant="h4" fontWeight="bold" color="white" component="div" sx={{ flexGrow: 1 }}>
