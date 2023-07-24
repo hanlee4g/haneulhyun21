@@ -19,7 +19,7 @@ const Login = ({ setPassword }) => {
   return (
     <div className="body-1">
         <div className="login-box">
-        <img src="../favicon.ico" alt="Your alt text" />
+        <img src="../assets/favicon.ico" alt="Your alt text" />
         <p>Are you Haneul?</p>
         <div className="buttons">
             <button onClick={() => setIsHaneul(true)}>Yes</button>
