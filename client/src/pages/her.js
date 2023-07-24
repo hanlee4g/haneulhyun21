@@ -26,8 +26,8 @@ function Her({isHaneul, password}) {
   }, []);
 
   const items = [
-    { type: 'video', content: '/assets/bada.mov', name: 'Bada', profilePicture: '/assets/user.png'},
     { type: 'video', content: '/assets/eileen.mov', name: 'Eileen', profilePicture: '/assets/user.png'},
+    { type: 'video', content: '/assets/bada.mov', name: 'Bada', profilePicture: '/assets/user.png'},
     { type: 'video', content: '/assets/namoo.mov', name: 'Namoo', profilePicture: '/assets/user.png'},
     { type: 'video', content: '/assets/mel.mov', name: 'Mel', profilePicture: '/assets/user.png'},
     { type: 'video', content: '/assets/mother.mov', name: 'Mom', profilePicture: '/assets/user.png'},

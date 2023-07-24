@@ -9,7 +9,7 @@ const Login = ({ setPassword }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (isHaneul && tempPassword === 'password') {
+    if (isHaneul && tempPassword === '07302002') {
       navigate('/her', { state: { isAuthenticated: true } });
     } else {
       navigate('/');
