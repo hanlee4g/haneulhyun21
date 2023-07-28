@@ -8,7 +8,7 @@ const NotHer = () => {
       <NavBar />
 
       <div className='section' id='preview-section'>
-        <h2>Haneul's View: </h2>
+        <h1>Haneul's View: </h1>
         <img src='../assets/preview.png' alt='Preview' />
         <p>
             Haneul will see a feed of videos, images, messages, and gift cards from her family and friends.
@@ -22,12 +22,12 @@ const NotHer = () => {
 
       <div className='main-content'>
         <div className='section' id='left-section'>
-          <h2>Create a Post</h2>
+          <h1>Write a Message - Recommended</h1>
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIBxaHK-1d9y8jSQ68QMQyr30OAKigEuXo3fFrYaQYi4O5Nw/viewform?embedded=true" width="640" height="1012" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
 
         <div className='section' id='right-section'>
-          <h2>Send Haneul a Gift</h2>
+          <h1>Send Haneul a Gift</h1>
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScT6gbx1JMf6wIdRJ06OKh6u_0YZ3tr4FDDj0pgLGo43Vd47A/viewform?embedded=true" width="640" height="1012" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
