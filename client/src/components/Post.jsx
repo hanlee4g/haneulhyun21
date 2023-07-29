@@ -14,12 +14,20 @@ const Post = ({ item }) => {
             {item.type === 'img' && 
                 <div className="post-content">
                     <img src={item.content} alt="media-content" className="post-content"/>
-                    <p>{item.caption}</p>
+                    {item.caption && <p>{item.caption}</p>}
                 </div>
             }
             {item.type === 'video' && 
                 <div className="post-content">
                     <ReactPlayer url={item.content} controls={true} width="100%"/>
+                    {item.caption && <p>{item.caption}</p>}
+                </div>
+            }
+            {item.type === 'gift' && 
+                <div className="post-content">
+                    <h2 className="gift-title">{item.title}</h2>
+                    <img src={item.content} alt="gift-card" className="gift-card"/>
+                    <a href={item.redemptionLink} target="_blank" rel="noopener noreferrer">Redeem Gift</a>
                 </div>
             }
         </div>
