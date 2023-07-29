@@ -26,8 +26,8 @@ const Post = ({ item }) => {
             {item.type === 'gift' && 
                 <div className="post-content">
                     <h2 className="gift-title">{item.title}</h2>
-                    <img src={item.content} alt="gift-card" className="gift-card"/>
-                    <a href={item.redemptionLink} target="_blank" rel="noopener noreferrer">Redeem Gift</a>
+                    <img src={item.content} alt="gift-card" className="post-content"/>
+                    <p>Gift card will be emailed or texted to you by EOD</p>
                 </div>
             }
         </div>

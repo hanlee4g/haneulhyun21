@@ -53,6 +53,7 @@ function Her({isHaneul, password}) {
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/han_i5.jpg', name: 'Han', profilePicture: '/assets/user.png', caption: "When we got paparazzied at a party"},
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/han_v2.mov', name: 'Han', profilePicture: '/assets/user.png'},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/skye_i2.JPG', name: 'Skye', profilePicture: '/assets/user.png', caption: "your best look"},
+    {type: 'gift', title: '$25 Aerie', content: 'https://storage.googleapis.com/haneul21assets/aerie_card.png', name: 'Skye', profilePicture: '/assets/user.png' },
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/eric_v.MOV', name: 'Eric', profilePicture: '/assets/user.png'},
     { type: 'text', content: 'Looking forward to: Catching up with you!!! I cannot believe it has been so long since Ive seen you. There is much to talk about and even more Rumple to drink.', name: 'Dianne', profilePicture: '/assets/user.png'},
@@ -71,6 +72,7 @@ function Her({isHaneul, password}) {
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/aylin_i2.jpg', name: 'Aylin', profilePicture: '/assets/user.png'},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/namoo_i2.jpeg', name: 'Namoo', profilePicture: '/assets/user.png'},
     { type: 'text', content: 'I have so many amazing memories of you, and so many of them sound so mundane — long nights we spent talking about our lives in Willard, procrastinating homework by talking about the state of the world, studying together in Starbucks. Every time we hang out Im reminded how much I love your company.', name: 'Skye', profilePicture: '/assets/user.png'},
+    {type: 'gift', title: '$15 Amazon', content: 'https://storage.googleapis.com/haneul21assets/amazon_card.png', name: 'Shray', profilePicture: '/assets/user.png' },
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/mom_v.mov', name: 'Mom', profilePicture: '/assets/user.png'},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/daeun_i3.jpeg', name: 'Daeun', profilePicture: '/assets/user.png'},
@@ -83,6 +85,7 @@ function Her({isHaneul, password}) {
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/dianne_i2.jpg', name: 'Dianne', profilePicture: '/assets/user.png', caption: "Friendsgiving face swap😂"},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/dianne_i3.jpg', name: 'Dianne', profilePicture: '/assets/user.png', caption: "Summer 2020 when we’d swim all the time"},
     { type: 'text', content: 'If Haneul were an animal: A honey badger since theyre though and ferocious but very cute HAHA', name: 'Eileen', profilePicture: '/assets/user.png'},
+    {type: 'gift', title: '$15 Starbucks', content: 'https://storage.googleapis.com/haneul21assets/starbucks_card.png', name: 'Dianne', profilePicture: '/assets/user.png' },
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/andrea_v.MOV', name: 'Andrea', profilePicture: '/assets/user.png'},
     { type: 'text', content: 'If Haneul were an animal...  하늘이언니 is a lion. Her personality reminds me of a lion. (Appearance-wise/second choice for personality would be a bear)', name: 'Kayla', profilePicture: '/assets/user.png'},
@@ -95,6 +98,7 @@ function Her({isHaneul, password}) {
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/han_i6.jpg', name: 'Han', profilePicture: '/assets/user.png', caption: "You at your cutest imo <3"},
     { type: 'text', content: 'My favorite memory of Haneul... there are too many (cheese car chase, Torchys chips & salsa) but Ill share one of the most memorable. At the A&M swim meet where we roomed with Mia. We were playing truth or dare, the night was winding down, and we thought the guys rooming near us were cute LOL. We then dared you to ask the room across from us where the ice machine was. Obviously you accepted the challenge. Dianne, Mia, and I wanted to hear the interaction and see it through the peephole, so we fought each other at the door. I distinctly remember the door being cracked open, and we were giggling so hard as you were talking and slamming the door shut LOLL', name: 'Eileen', profilePicture: '/assets/user.png'},
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/han_v1.mov', name: 'Han', profilePicture: '/assets/user.png', caption: "Do you remember when we filmed this?"},
+    {type: 'gift', title: '$25 Amazon', content: 'https://storage.googleapis.com/haneul21assets/amazon_card.png', name: 'Andrea', profilePicture: '/assets/user.png' },
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/greg_v.mov', name: 'Greg', profilePicture: '/assets/user.png'},
     { type: 'text', content: 'I cant wait to spend time with you when you return from your travels!', name: 'Skye', profilePicture: '/assets/user.png'},
@@ -107,6 +111,7 @@ function Her({isHaneul, password}) {
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/skye_i1.JPG', name: 'Skye', profilePicture: '/assets/user.png', caption: "one of our first nights in Willard!"},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/han_i1.jpg', name: 'Han', profilePicture: '/assets/user.png', caption: "Please don't kill me for this picture :)"},
     { type: 'text', content: 'Something I look forward doing/seeing w/ Haneul: Taking her around Austin more, showing her my favorite bars/dive bars in Austin, and EATING', name: 'Eileen', profilePicture: '/assets/user.png'},
+    {type: 'gift', title: '$100 Target', content: 'https://storage.googleapis.com/haneul21assets/target_card.png', name: 'Daeuns Mom', profilePicture: '/assets/user.png' },
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/namoo_v.mov', name: 'Namoo', profilePicture: '/assets/user.png'},
     { type: 'text', content: 'My favorite memories with her involved {redacted} and going on some degen adventures. A specific adventure that comes to mind is when we found the gazebo.', name: 'Marcus', profilePicture: '/assets/user.png'},
@@ -115,15 +120,6 @@ function Her({isHaneul, password}) {
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/daeun_v1.mov', name: 'Daeun', profilePicture: '/assets/user.png'},
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/han_v3.mov', name: 'Han', profilePicture: '/assets/user.png', caption: "HAPPY BIRTHDAY!"},
-
-    {type: 'gift', title: '', content: '',redemptionLink: '', name: 'Daeuns Mom', profilePicture: '/assets/user.png' },
-    {type: 'gift', title: '', content: '',redemptionLink: '', name: 'Andrea', profilePicture: '/assets/user.png' },
-    {type: 'gift', title: '', content: '',redemptionLink: '', name: 'Dianne', profilePicture: '/assets/user.png' },
-    {type: 'gift', title: '', content: '',redemptionLink: '', name: 'Shray', profilePicture: '/assets/user.png' },
-    {type: 'gift', title: '', content: '',redemptionLink: '', name: 'Skye', profilePicture: '/assets/user.png' },
-    {type: 'gift', title: '', content: '',redemptionLink: '', name: 'Han', profilePicture: '/assets/user.png' },
-
-
   ];
 
   const getFilteredItems = () => {
