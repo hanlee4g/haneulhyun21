@@ -59,7 +59,6 @@ function Her({isHaneul, password}) {
     { type: 'text', content: 'Looking forward to: Catching up with you!!! I cannot believe it has been so long since Ive seen you. There is much to talk about and even more Rumple to drink.', name: 'Dianne', profilePicture: '/assets/user.png'},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/eileen_i2.jpg', name: 'Eileen', profilePicture: '/assets/user.png', caption: "Bobs burger halloween 🎃"},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/marcus_i1.JPG', name: 'Marcus', profilePicture: '/assets/user.png'},
-    { type: 'text', content: 'One of my favorite memories of you are all the little moments where you would get excited about something. Seeing your face light up is very memorable.', name: 'Han', profilePicture: '/assets/user.png'},
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/dianne_v.MOV', name: 'Dianne', profilePicture: '/assets/user.png'},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/han_i4.jpg', name: 'Han', profilePicture: '/assets/user.png', caption: "POV: people screaming in the background"},
@@ -114,7 +113,7 @@ function Her({isHaneul, password}) {
     {type: 'gift', title: '$100 Target', content: 'https://storage.googleapis.com/haneul21assets/target_card.png', name: 'Daeuns Mom', profilePicture: '/assets/user.png' },
 
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/namoo_v.mov', name: 'Namoo', profilePicture: '/assets/user.png'},
-    { type: 'text', content: 'My favorite memories with her involved {redacted} and going on some degen adventures. A specific adventure that comes to mind is when we found the gazebo.', name: 'Marcus', profilePicture: '/assets/user.png'},
+    { type: 'text', content: 'My favorite memories with her involved going on some degen adventures. A specific adventure that comes to mind is when we found the gazebo.', name: 'Marcus', profilePicture: '/assets/user.png'},
     { type: 'img', content: 'https://storage.googleapis.com/haneul21assets/dianne_i5.jpg', name: 'Dianne', profilePicture: '/assets/user.png', caption: "Eileen and Liz at grapevine lake during covid"},
     { type: 'text', content: 'Spending a month in Athens together and having the craziest experiences was something Ill never forget. From letting a random British woman drive us back to the city to putting our hands in the Syntagma square fountain, theres no one else Id rather have done it all with. One day well go back and break into the Panathenaic stadium at 4 am again -- but until then, happy birthday and I hope you have the best day ever <3', name: 'Shray', profilePicture: '/assets/user.png'},
     { type: 'video', content: 'https://storage.googleapis.com/haneul21assets/daeun_v1.mov', name: 'Daeun', profilePicture: '/assets/user.png'},
